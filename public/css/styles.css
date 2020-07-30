@@ -1,0 +1,51 @@
+head {
+    color:white;
+    Justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+  color: black;
+  justify-content:Center;
+}
+
+p {
+  font-size: 20px; 
+}
+
+container {
+    text-align: left;
+}
+main {
+  background-color: powderblue;
+  text-align: center;
+  
+}
+
+h1 {
+  color: blue;
+  justify-content:Center;
+}
+
+footer {
+    text-align: center;
+}
+
+content {
+    text-align: center;
+}
+
+container {
+  padding: 50%;
+}
+
+#reference {
+  text-align: center;
+
+}
+
+nav { 
+  text-weight: 100%;
+  
+}
