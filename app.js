@@ -9,11 +9,11 @@ app.get("/", function (req, res) {
 app.get("/contact", function(req, res) {
     res.render("contact.html");
 });
-// Venus
+// courses
 app.get("/courses", function(req, res) {
     res.render("courses.html");
 });
-// Earth
+// more info
 app.get("/more", function(req, res) {
     res.render("more.html");
 });
@@ -21,6 +21,11 @@ app.get("/more", function(req, res) {
 app.get("/reference", function(req, res) {
     res.render("reference.html");
 });
+
+var fakeData = require("faker");
+var randomName = fakeData.name.findName()
+console.log(randomName); 
+
 //starting server 
 app.listen(process.env.PORT, process.env.IP, function() {
     console.log("Express server is running....");
